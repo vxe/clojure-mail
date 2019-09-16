@@ -67,7 +67,8 @@
                :flags IMAPFolder$FetchProfileItem/FLAGS
                :envelope IMAPFolder$FetchProfileItem/ENVELOPE
                :content-info IMAPFolder$FetchProfileItem/CONTENT_INFO
-               :size FetchProfile$Item/SIZE)
+               ;; :size FetchProfile$Item/SIZE
+               )
         _ (.add fp item)]
     (.fetch f (into-array IMAPMessage ms) fp)))
 
