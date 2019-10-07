@@ -1,4 +1,4 @@
-{:deps {org.clojure/clojure {:mvn/version "1.7.0"}
+{:deps {org.clojure/clojure {:mvn/version "1.8.0"}
         org.jsoup/jsoup {:mvn/version "1.8.3"}
         com.sun.mail/javax.mail {:mvn/version "1.5.5"}
         medley {:mvn/version "1.0.0"}}}
